@@ -28,7 +28,7 @@ def loadData(US=True, cases=True, use_local=False):
     try:
         PATH = DATA_URL + FILENAMES[US][cases]
         return pd.read_csv(PATH)
-    except URLError(err):
+    except:
         PATH = './data/' + FILENAMES[US][cases]
         return pd.read_csv(PATH)
 

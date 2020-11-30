@@ -135,4 +135,4 @@ if __name__ == '__main__':
 
     filename = f"./report_{yesterday.replace('/', '-')}.pdf"
     
-    ReportGenerator(filename=filename, day=yesterday, dark_mode=True)
+    ReportGenerator(filename=filename, day=yesterday, dark_mode=False)
