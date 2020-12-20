@@ -40,7 +40,7 @@ forked this [GitHub repo](https://github.com/KeithGalli/generate-analytics-repor
 The data comes from this [GitHub directory](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/).
 I used this [Canva template](https://www.canva.com/templates/EADanhu4gjA-grey-lines-geometric-shapes-architecture-company-letterhead/) for the PDF.
 
-### Future work:
+## Future work
 - [ ] Plot a rolling average of the cases to create a smoother graph.
 - [ ] Explore displaying different graphs.
 
